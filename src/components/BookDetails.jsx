@@ -3,7 +3,7 @@ import '../App';
 
 function BookDetails() {
   return (
-    <div>BookDetails</div>
+    <div className='book-details'>BookDetails</div>
   )
 }
 
