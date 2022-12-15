@@ -34,7 +34,7 @@ axios.get(API_URL).then(res=>{
 <div key={book.id} className="book">
     <div>
         <h4 className='book-title'>{book.title}</h4>
-        <div><img src={book.image_url} alt="#" onClick={()=>navigate(`/book/${book.id}`)}/>
+        <div><img src={book.image_url} alt="#" onClick={()=>navigate(`/books/${book.id}`)}/>
         </div>
         <div>
         {favoritesChecker(book.id) ? (
