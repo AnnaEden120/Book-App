@@ -45,6 +45,20 @@ a{
   justify-items: center;
 }
 
+.book-details{
+  min-height: 80vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  /*text-align: center;*/
+  padding:10px;
+}
+
+.book-description{
+  margin:0x 10px;
+}
+
 .book-title{
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
